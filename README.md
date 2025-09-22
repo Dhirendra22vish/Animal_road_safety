@@ -1,6 +1,6 @@
 🦌 AI Animal Road Safety - Complete Prototype
 A comprehensive web application that prevents animal-vehicle collisions through intelligent alerts, real-time route monitoring, and AI-powered wildlife detection.
-🎯 Project Overview
+**Project Overview**
 This hackathon-ready prototype demonstrates how AI can protect both wildlife and human lives by:
 
 Real-time Alert System: Warns drivers when approaching animal crossing zones
@@ -54,7 +54,7 @@ Show multiple alert types (Critical, High, Medium risk)
 Demonstrate eco-gaming features for engagement
 Have backup screenshots ready
 
-🛠️ Core Features
+Core Features
 MVP (Must-Have) Features ✅
 
  CSV Database: 15+ real animal crossing zones across India
@@ -108,7 +108,7 @@ Mumbai → Nagpur: 830km through multiple wildlife zones
 Pune → Tadoba: 580km via tiger corridors
 Delhi → Ranthambore: 380km through leopard territory
 
-🎨 UI/UX Features
+UI/UX Features
 Modern Design Elements:
 
 Glassmorphism: Transparent cards with backdrop blur
@@ -125,7 +125,7 @@ Real-time feedback through alert logs
 Gamification with points and achievements
 Mobile-first alert design mockups
 
-🚨 Alert System Logic
+Alert System Logic
 Risk Calculation:
 python# Distance-based risk assessment
 if distance <= zone_radius:
