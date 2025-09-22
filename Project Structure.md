@@ -1,24 +1,33 @@
 ai-animal-road-safety/
 │
-├── app.py                   # Main Streamlit app (Python logic, UI, routing)
+├── backend/                     # Python backend (Streamlit or FastAPI/Flask)
+│   ├── app.py                   # Main backend app
+│   ├── requirements.txt         # Python dependencies
+│   ├── data/                    # Datasets
+│   │   ├── animal_zones.csv
+│   │   ├── incidents.csv
+│   │   └── routes.json
+│   └── utils/                   # Python helper modules
+│       ├── map_utils.py
+│       ├── simulation.py
+│       ├── audio_utils.py
+│       └── __init__.py
 │
-├── requirements.txt         # Dependencies (Streamlit, Folium, Pandas, etc.)
+├── frontend/                    # React frontend (UI)
+│   ├── public/                  # Static files (favicon, index.html)
+│   ├── src/                     # React components & pages
+│   │   ├── App.jsx              # Main React app
+│   │   ├── index.js             # Entry point
+│   │   ├── components/          # Reusable components
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── MapView.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   └── Alerts.jsx
+│   │   ├── assets/              # Images/icons
+│   │   │   └── logo.png
+│   │   └── styles/              # CSS
+│   │       └── style.css
+│   ├── package.json             # Frontend dependencies
+│   └── vite.config.js           # (if using Vite)
 │
-├── static/                  # Static files (CSS, JS, Images, Sounds)
-│   ├── style.css            # Custom CSS styles
-│   ├── script.js            # Optional JavaScript for alerts/animations
-│   ├── alert.mp3            # Alert sound file
-│   └── logo.png             # Project logo/icon
-│
-├── data/                    # Data files (zones, incidents, etc.)
-│   ├── animal_zones.csv     # Wildlife zones dataset
-│   ├── incidents.csv        # Incident history dataset
-│   └── routes.json          # Preset routes data (optional)
-│
-├── utils/                   # Helper Python scripts (modular code)
-│   ├── map_utils.py         # Functions for map rendering
-│   ├── simulation.py        # Functions for route simulation & alerts
-│   ├── audio_utils.py       # Functions for playing alert sounds
-│   └── __init__.py
-│
-└── README.md                # Project description & setup guide
+└── README.md
