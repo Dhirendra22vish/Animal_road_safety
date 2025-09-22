@@ -36,15 +36,7 @@ bashstreamlit run app.py
 Open in browser:
 
 http://localhost:8501
-📁 Project Structure
-ai-animal-road-safety/
-├── app.py                 # Main Streamlit application
-├── animal_zones.csv       # Wildlife crossing zones database
-├── incidents.csv          # Historical incident data for heatmap
-├── requirements.txt       # Python dependencies
-├── README.md             # This file
-└── demo_assets/          # Optional: demo videos/images
-🎮 How to Demo (60-90 seconds)
+
 Quick Demo Script:
 
 Launch app → Show the beautiful UI and main dashboard
