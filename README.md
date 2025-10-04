@@ -412,30 +412,8 @@ CALL HELP
 - **Matplotlib**: Charts and graphs
 - **Folium HeatMap**: Incident visualization
 
----
 
-## 🤝 Contributing
 
-Contributions are welcome! Here's how:
-
-### 1. Fork the Repository
-```bash
-git fork https://github.com/yourusername/aiarss.git
-```
-
-### 2. Create Feature Branch
-```bash
-git checkout -b feature/AmazingFeature
-```
-
-### 3. Commit Changes
-```bash
-git commit -m 'Add some AmazingFeature'
-```
-
-### 4. Push to Branch
-```bash
-git push origin feature/AmazingFeature
 ```
 
 ### 5. Open Pull Request
