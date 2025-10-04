@@ -71,7 +71,7 @@ An intelligent route planning and alert system that helps prevent wildlife colli
 
 ## 🎬 Demo
 
-### Screenshots
+(https://github.com/Dhirendra22vish/Animal_road_safety/blob/56c18120d3d75dfbd89110d47fa458679f35dd58/Screenshot%202025-10-04%20120322.png)
 
 **Main Dashboard**
 ```
