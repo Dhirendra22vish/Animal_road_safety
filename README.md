@@ -4,7 +4,10 @@
 
 An intelligent route planning and alert system that helps prevent wildlife collisions on highways passing through protected areas in Uttar Pradesh. The system provides real-time SMS alerts, mobile notifications, and audio warnings when vehicles approach wildlife zones.
 
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
 
 ---
 
