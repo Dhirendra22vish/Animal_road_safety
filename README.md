@@ -479,11 +479,10 @@ limitations under the License.
 
 **Project Maintainer**: Your Name
 
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
+- Email: dhiru7521071887@gmail.com
+- LinkedIn: [MY Profile](https://www.linkedin.com/in/dhirendra-vishwakarma-53259a292/)
 
-**Support**: For issues and questions, please [open an issue](https://github.com/yourusername/aiarss/issues)
+**Support**: For issues and questions, please [open an issue](https://github.com/Dhirendra22vish/Animal_road_safety/issues)
 
 ---
 
