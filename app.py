@@ -1038,7 +1038,7 @@ def main():
         
         st.markdown("### 🎮 Simulation")
         
-        if st.button("▶️ Start Route Simulation", width="stretch"):
+       if st.button("▶️ Start Route Simulation", use_container_width=True):
             st.session_state.simulation_running = True
             st.session_state.simulation_step = 0
             st.session_state.alert_log = []
